@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">嗨皮游戏</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_games">嗨皮游戏</string>
+    <string name="title_activity_ad_control"></string>
+    <string name="title_activity_full_video">嗨皮游戏</string>
+    <string name="title_activity_game_info">嗨皮游戏</string>
+    <string name="title_activity_loading">嗨皮游戏</string>
+    <string name="title_activity_setting">嗨皮游戏</string>
+
+</resources>

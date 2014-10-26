@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/main_bg" >
+
+    <ImageView
+        android:id="@+id/bgImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ad_ctrl" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="640dp"
+        android:layout_height="360dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="80dp" 
+       />
+
+    <ImageView
+        android:id="@+id/backImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bgImageView"
+        android:layout_alignRight="@+id/videoView1"
+        android:layout_marginBottom="53dp"
+        android:layout_marginRight="182dp"
+        android:src="@drawable/btn_back_focus" />
+
+    <ImageView
+        android:id="@+id/ivPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/backImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="173dp"
+        android:src="@drawable/ctrl_price" />
+
+    <ImageView
+        android:id="@+id/ivMask"
+        android:layout_width="640dp"
+        android:layout_height="360dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="80dp" />
+
+</RelativeLayout>

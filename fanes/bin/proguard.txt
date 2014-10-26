@@ -1,0 +1,31 @@
+# view AndroidManifest.xml #generated:68
+-keep class com.TDiJoy.fane.AdControlActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.TDiJoy.fane.FullVideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.TDiJoy.fane.GameInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.TDiJoy.fane.GamesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.TDiJoy.fane.LoadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.TDiJoy.fane.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.TDiJoy.fane.SysSettingActivity { <init>(...); }
+
+# view res/layout/activity_games.xml #generated:13
+-keep class com.TDiJoy.fane.view.BackImageView { <init>(...); }
+
+# view res/layout/game_type_menu.xml #generated:7
+# view res/layout/horizontal_scroll_view.xml #generated:2
+-keep class com.TDiJoy.fane.view.CHorizontalScrollView { <init>(...); }
+
+# view res/layout/activity_game_info.xml #generated:9
+-keep class com.TDiJoy.fane.view.GameInfoMenuView { <init>(...); }
+

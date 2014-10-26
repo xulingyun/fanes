@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="14dp" >
+
+    <LinearLayout
+        android:id="@+id/childLockLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_childlock"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/ivBack"
+                        android:layout_marginTop="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:src="@drawable/myinfo_head_img" />
+
+                    <TextView
+                        android:id="@+id/tvIp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我的头像"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+
+                </LinearLayout>
+
+                
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <TextView
+                        android:id="@+id/tvInTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="账号："
+                        android:textColor="#ffffff"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/tvInAvail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="昵称："
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp" />
+
+                <TextView
+                        android:id="@+id/tvExTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="手机："
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp" />
+                
+                <TextView
+                        android:id="@+id/tvExTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="邮箱："
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp" />
+                <TextView
+                        android:id="@+id/tvExTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="地址："
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="10dp"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            
+              <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical" 
+                    android:focusable="false"   
+					android:focusableInTouchMode="false">
+
+                  <EditText
+                      android:id="@+id/myaccount"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                       >
+
+                      <requestFocus />
+                  </EditText>
+
+                  <EditText
+                      android:id="@+id/myname"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+                  <EditText
+                      android:id="@+id/myphonenum"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+                  
+                  <EditText
+                      android:id="@+id/myemail"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+                  <EditText
+                      android:id="@+id/myadress"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+            
+ 				</LinearLayout>
+ 				
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/refLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|clip_vertical"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivRefLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
