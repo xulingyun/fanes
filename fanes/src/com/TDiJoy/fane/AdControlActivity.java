@@ -11,19 +11,15 @@ import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.RelativeLayout.LayoutParams;
 import android.widget.VideoView;
 
 import com.TDiJoy.fane.R;
 import com.TDiJoy.fane.manager.GameInfoManager;
 import com.TDiJoy.fane.manager.ImageManager;
-import com.TDiJoy.fane.util.Unit;
 
 public class AdControlActivity extends Activity {
 	private VideoView videoView;
